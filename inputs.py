@@ -2,7 +2,7 @@ def get_nickname():
 
     while True:
 
-        nickname = input("Enter your ingame nickname: ").strip()
+        nickname = input("Enter your in game nickname: ").strip()
 
         if not nickname:
             print("Nickname cannot be empty")
@@ -34,7 +34,3 @@ def get_game_lvl():
             game_lvl_name = "Hard"
 
         return game_lvl, game_lvl_name
-
-
-
-
