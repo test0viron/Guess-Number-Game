@@ -29,7 +29,7 @@ def gng_game(difficulty):
                 print("")
                 print(f'Your points: {points_counter}')
 
-        if difficulty == "Medium":
+        elif difficulty == "Medium":
 
             if not 1 <= chosen_number_int <= 10 :
                 print("Please enter a number between 1 and 10.")
@@ -49,7 +49,7 @@ def gng_game(difficulty):
                 print("")
                 print(f'Your points: {points_counter}')
 
-        if difficulty == "Hard":
+        elif difficulty == "Hard":
 
             if not 1 <= chosen_number_int <= 15 :
                 print("Please enter a number between 1 and 15.")

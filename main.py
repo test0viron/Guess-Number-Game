@@ -22,11 +22,11 @@ def main():
     print("")
 
     if difficulty == "Easy":
-        end_result = gng_game_code.gng_game("Easy")
+        end_result = gng_game_code.gng_game(difficulty)
     elif difficulty == "Medium":
-        end_result = gng_game_code.gng_game("Medium")
+        end_result = gng_game_code.gng_game(difficulty)
     elif difficulty == "Hard":
-        end_result = gng_game_code.gng_game("Hard")
+        end_result = gng_game_code.gng_game(difficulty)
 
     if end_result == 0:
         print("=== GAME OVER ===")

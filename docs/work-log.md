@@ -21,3 +21,45 @@
     - !! Note for future !! - write down tests for every program part that you're testing
 19. Whole program sent to ChatGPT for code review
 20. All corrections from ChatGPT checked and implemented
+21. Manual tests :
+    1. Inputs :
+      - nickname:
+        - empty - works
+        - spaces - works
+        - valid - works
+      - difficulty:
+        - empty - works
+        - invalid - works
+        - 1 - works
+        - 2 - works
+        - 3 - works
+      - guess:
+        - empty - works
+        - spaces - works
+        - text - works
+        - valid integer - works
+    2. Easy :
+        - 0   → rejected
+        - 1   → accepted
+        - 5   → accepted
+        - 6   → rejected
+    3. Medium :
+        - 0   → rejected
+        - 1   → accepted
+        - 10  → accepted
+        - 11  → rejected
+    4. Hard :
+       - 0   → rejected
+       - 1   → accepted
+       - 15  → accepted
+       - 16  → rejected
+    5. Attempts :
+       - 5 correct inputs → game over
+       - invalid input → does not count
+    6. Ranking :
+       - result > first place - works
+       - tie - user takes higher place
+       - result < last place - works
+    7. double rankings() call out - does not change gng_ranking positions
+        
+        
