@@ -5,3 +5,5 @@
 5. Created get_nickname and get_game_lvl functions in inputs.py
 6. Created main.py
 7. Implemented get_nickname and get_game_lvl to main.py
+8. Created rules.py for explaining rules of every difficulty level to user.
+9. Implemented rules to main program in main.py file.
