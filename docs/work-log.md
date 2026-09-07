@@ -10,3 +10,9 @@
 10. Created gng_game.py for every gng game level code
 11. Created code for every gng game level
 12. Implemented gng_game.py module and its functions into main program code in main.py file
+13. Created rankings.py for ranking creation after ending of the GNG game
+14. Created code that takes in users nickname and game result, putting him into preexisting bez results ranking
+    - I used ChatGPT help for problem with putting User in the first place in ranking
+        - ChatGPT help consisted of a hint on how to solve this problem. The hint suggested using for... else: loop
+15. Implemented ranking.py module to main program in main.py file
+16. 
