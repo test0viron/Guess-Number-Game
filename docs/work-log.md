@@ -15,4 +15,7 @@
     - I used ChatGPT help for problem with putting User in the first place in ranking
         - ChatGPT help consisted of a hint on how to solve this problem. The hint suggested using for... else: loop
 15. Implemented ranking.py module to main program in main.py file
-16. 
+16. Changed gng_game.py name to gng_game_codes.py for readability
+17. Put whole execution code in main.py in main() function, and added 'if __name__' condition
+18. ALL tests for every program parts were done during coding.
+    - !! Note for future !! - write down tests for every program part that you're testing 
