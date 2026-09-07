@@ -18,4 +18,6 @@
 16. Changed gng_game.py name to gng_game_codes.py for readability
 17. Put whole execution code in main.py in main() function, and added 'if __name__' condition
 18. ALL tests for every program parts were done during coding.
-    - !! Note for future !! - write down tests for every program part that you're testing 
+    - !! Note for future !! - write down tests for every program part that you're testing
+19. Whole program sent to ChatGPT for code review
+20. All corrections from ChatGPT checked and implemented

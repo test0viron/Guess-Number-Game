@@ -21,4 +21,4 @@ python main.py
 1. User needs to enter his in game nickname.
 2. User needs to select game difficulty level.
 3. After seeing set of numbers to choose from depending on the selected difficulty level, user needs to enter his guessed number.
-4. After 5 guesses, based on his end result, he is put into preexisting ranking.
+4. After 5 guesses, based on users end result, user is put into preexisting ranking.
