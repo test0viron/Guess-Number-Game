@@ -76,7 +76,7 @@ def gng_game_medium():
 
             break
 
-        random_number = random.randint(1, 5)
+        random_number = random.randint(1, 10)
 
         if chosen_number_int == random_number:
             points_counter += 2
@@ -119,7 +119,7 @@ def gng_game_hard():
                 continue
 
             if not 1 <= chosen_number_int <= 15:
-                print("Number must be between 1 and 10.")
+                print("Number must be between 1 and 15.")
                 continue
 
             break

@@ -23,9 +23,9 @@ def main():
 
     if difficulty == "Easy":
         end_result = gng_game_codes.gng_game_easy()
-    if difficulty == "Medium":
+    elif difficulty == "Medium":
         end_result = gng_game_codes.gng_game_medium()
-    if difficulty == "Hard":
+    elif difficulty == "Hard":
         end_result = gng_game_codes.gng_game_hard()
 
     if end_result == 0:

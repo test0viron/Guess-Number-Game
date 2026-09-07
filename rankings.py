@@ -6,7 +6,7 @@ gng_ranking = [{"Position": 1, "Nickname": "Anna", "Result": 6},
 def rankings(nickname, result):
 
     new_ranking = [
-        player
+        player.copy()
         for player in gng_ranking
     ]
 
