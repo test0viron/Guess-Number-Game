@@ -7,3 +7,6 @@
 7. Implemented get_nickname and get_game_lvl to main.py
 8. Created rules.py for explaining rules of every difficulty level to user.
 9. Implemented rules to main program in main.py file.
+10. Created gng_game.py for every gng game level code
+11. Created code for every gng game level
+12. Implemented gng_game.py module and its functions into main program code in main.py file
