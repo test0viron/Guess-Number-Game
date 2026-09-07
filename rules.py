@@ -1,4 +1,4 @@
-def rules(difficulty):
+def display(difficulty):
 
     if difficulty == "Easy":
         print("Easy level game rules:")

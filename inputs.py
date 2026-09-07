@@ -27,13 +27,13 @@ def get_game_lvl():
             continue
 
         if game_lvl == "1":
-            game_lvl_name = "Easy"
+            difficulty = "Easy"
         elif game_lvl == "2":
-            game_lvl_name = "Medium"
+            difficulty = "Medium"
         elif game_lvl == "3":
-            game_lvl_name = "Hard"
+            difficulty = "Hard"
 
-        return game_lvl, game_lvl_name
+        return difficulty
 
 def get_guessed_number():
     while True:
