@@ -1,4 +1,4 @@
-import difficulty_levels, inputs, rules
+import gng_game, inputs, rules
 
 nickname = inputs.get_nickname()
 print("")
@@ -17,4 +17,19 @@ print(f'Selected difficulty level:\n{difficulty}')
 print("")
 
 rules.rules(difficulty)
+print("")
+
+if difficulty == "Easy":
+    end_result = gng_game.gng_game_easy()
+if difficulty == "Medium":
+    end_result = gng_game.gng_game_medium()
+if difficulty == "Hard":
+    end_result = gng_game.gng_game_hard()
+
+if end_result == 0:
+    print("=== GAME OVER ===")
+    print(f'Better luck next time {nickname}!')
+else:
+    print("=== GAME OVER ===")
+    print(f'Congratulations, {nickname}! You score: {end_result} points')
 
