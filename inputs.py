@@ -34,3 +34,21 @@ def get_game_lvl():
             game_lvl_name = "Hard"
 
         return game_lvl, game_lvl_name
+
+def get_guessed_number():
+    while True:
+
+        chosen_number = input("Enter your number: ").strip()
+
+        if not chosen_number:
+            print("Number cannot be empty.")
+            continue
+
+        try:
+            chosen_number_int = int(chosen_number)
+
+        except ValueError:
+            print("Invalid format. Please enter a number.")
+            continue
+
+        return chosen_number_int
