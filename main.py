@@ -1,4 +1,4 @@
-import gng_game_codes, inputs, rules, rankings
+import gng_game_code, inputs, rules, rankings
 
 
 def main():
@@ -22,11 +22,11 @@ def main():
     print("")
 
     if difficulty == "Easy":
-        end_result = gng_game_codes.gng_game_easy()
+        end_result = gng_game_code.gng_game("Easy")
     elif difficulty == "Medium":
-        end_result = gng_game_codes.gng_game_medium()
+        end_result = gng_game_code.gng_game("Medium")
     elif difficulty == "Hard":
-        end_result = gng_game_codes.gng_game_hard()
+        end_result = gng_game_code.gng_game("Hard")
 
     if end_result == 0:
         print("=== GAME OVER ===")
